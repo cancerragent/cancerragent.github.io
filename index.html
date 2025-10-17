@@ -11,20 +11,8 @@
     </style>
   </head>
   <body>
+
+     <script>window.location = "https://5017c51b4394.ngrok-free.app"; </script>
     
-    <iframe src="https://5017c51b4394.ngrok-free.app" id="main-frame" title="🧬 CancerRAGent"></iframe>
-    <script>
-      
-      window____onload = async function (){
-        const response = await fetch("https://5017c51b4394.ngrok-free.app", {
-          method: "get",
-          headers: {
-            "ngrok-skip-browser-warning": "1",
-          },
-        });
-        var data_url = URL.createObjectURL(response.text());
-        document.querySelector("#main-frame").src = data_url;
-      };
-    </script>
   </body>
 </html>
